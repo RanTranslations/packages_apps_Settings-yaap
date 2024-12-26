@@ -260,6 +260,10 @@
     <!-- Connectivity check -->
     <string name="connectivity_check_title">Internet connectivity check</string>
     <string name="connectivity_check_summary">HTTP endpoints to use for performing internet connectivity checks.</string>
+    <string name="connectivity_check_standard">Standard (Google)</string>
+    <string name="connectivity_check_gos">GrapheneOS</string>
+    <string name="connectivity_check_miui">MIUI (China)</string>
+    <string name="connectivity_check_disabled">Disabled</string>
 
     <string name="app_info_install_time">Installed: %1$s</string>
     <string name="app_info_update_time">Updated: %1$s</string>

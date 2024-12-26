@@ -226,6 +226,8 @@
     <!-- Connectivity check -->
     <string name="connectivity_check_title">网络连通性检查</string>
     <string name="connectivity_check_summary">选择用于网络连通性检查的 HTTP 站点</string>
+    <string name="connectivity_check_standard">默认 (Google)</string>
+    <string name="connectivity_check_disabled">禁用</string>
 
     <string name="app_info_install_time">安装时间: %1$s</string>
     <string name="app_info_update_time">更新时间: %1$s</string>

@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Vibration patterns -->
-    <string-array name="vibration_pattern_entries">
+    <string-array name="vibration_pattern_entries" translatable="false">
         <item>@string/pattern_dzzz_dzzz</item>
         <item>@string/pattern_dzzz_da</item>
         <item>@string/pattern_mm_mm_mm</item>
@@ -23,7 +23,7 @@
         <item>@string/pattern_da_dzzz_da</item>
         <item>@string/pattern_custom</item>
     </string-array>
-    <string-array name="vibration_pattern_values">
+    <string-array name="vibration_pattern_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -33,7 +33,7 @@
     </string-array>
 
     <!-- Torch Power button gestures -->
-    <string-array name="torch_power_button_gesture_entries">
+    <string-array name="torch_power_button_gesture_entries" translatable="false">
         <item>@string/torch_power_button_gesture_none</item>
         <item>@string/torch_power_button_gesture_dt</item>
         <item>@string/torch_power_button_gesture_lp</item>
@@ -45,7 +45,7 @@
     </string-array>
 
     <!-- Gaming mode -->
-    <string-array name="gaming_mode_ringer_entries">
+    <string-array name="gaming_mode_ringer_entries" translatable="false">
         <item>@string/gaming_mode_ringer_disabled</item>
         <item>@string/gaming_mode_ringer_vibrate</item>
         <item>@string/gaming_mode_ringer_silent</item>
@@ -58,7 +58,7 @@
     </string-array>
 
     <!-- Labels for different types of navigation bar layouts [CHAR LIMIT=60] -->
-    <string-array name="navbar_layout_entries">
+    <string-array name="navbar_layout_entries" translatable="false">
         <item>@string/navbar_layout_normal</item>
         <item>@string/navbar_layout_compact</item>
         <item>@string/navbar_layout_leftleaning</item>
@@ -72,7 +72,7 @@
         <item>space;space;left,back,home,recent,right</item>
     </string-array>
 
-    <string-array name="notification_vibration_pattern_entries">
+    <string-array name="notification_vibration_pattern_entries" translatable="false">
         <item>@string/locale_default</item>
         <item>@string/pattern_dzzz_da</item>
         <item>@string/pattern_mm_mm_mm</item>
@@ -82,11 +82,11 @@
     </string-array>
 
     <!-- Connectivity check -->
-    <string-array name="connectivity_check_entries">
-        <item>Standard (Google)</item>
-        <item>GrapheneOS</item>
-        <item>MIUI (China)</item>
-        <item>Disabled</item>
+    <string-array name="connectivity_check_entries" translatable="false">
+        <item>@string/connectivity_check_standard</item>
+        <item>@string/connectivity_check_gos</item>
+        <item>@string/connectivity_check_miui</item>
+        <item>@string/connectivity_check_disabled</item>
     </string-array>
 
     <string-array name="connectivity_check_values" translatable="false">
@@ -203,7 +203,7 @@
     </string-array>
 
     <!-- AOD Schedule -->
-    <string-array name="doze_always_on_auto_mode_entries">
+    <string-array name="doze_always_on_auto_mode_entries" translatable="false">
         <item>@string/disabled</item>
         <item>@string/night_display_auto_mode_twilight</item>
         <item>@string/always_on_display_schedule_mixed_sunset</item>
@@ -236,7 +236,7 @@
     </string-array>
 
     <!-- Clock position -->
-    <string-array name="statusbar_clock_position_entries">
+    <string-array name="statusbar_clock_position_entries" translatable="false">
         <item>@string/statusbar_clock_position_left</item>
         <item>@string/statusbar_clock_position_center</item>
         <item>@string/statusbar_clock_position_right</item>
@@ -262,7 +262,7 @@
     </string-array>
 
     <!-- Monet theme styles  -->
-    <string-array name="theme_style_entries">
+    <string-array name="theme_style_entries" translatable="false">
         <item>@string/theme_style_tonal_spot</item>
         <item>@string/theme_style_vibrant</item>
         <item>@string/theme_style_expressive</item>
@@ -283,7 +283,7 @@
     </string-array>
 
     <!-- Monet color sources  -->
-    <string-array name="color_source_entries">
+    <string-array name="color_source_entries" translatable="false">
         <item>@string/color_source_both</item>
         <item>@string/color_source_home</item>
         <item>@string/color_source_lock</item>
@@ -298,7 +298,7 @@
     </string-array>
 
     <!-- Lockscreen weather provider -->
-    <string-array name="lockscreen_weather_provider_entries">
+    <string-array name="lockscreen_weather_provider_entries" translatable="false">
         <item>@string/lockscreen_weather_provider_none</item>
         <item>@string/lockscreen_weather_provider_default</item>
         <item>@string/lockscreen_weather_provider_omni</item>
