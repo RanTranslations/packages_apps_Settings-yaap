@@ -241,8 +241,6 @@
 
     <!-- YASP Import -->
 
-    <!-- App Title -->
-    <string name="yaap_settings_title">Настройки YAAP</string>
 
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
